@@ -1,0 +1,33 @@
+{
+  "name": "kiosk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node index.js"
+  },
+  "keywords": [
+    "kiosk"
+  ],
+  "author": "Vasilev Sergey I-23",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "json": "^11.0.0",
+    "module-alias": "^2.2.3",
+    "nircmd": "^2.0.0",
+    "node-powershell": "^5.0.1",
+    "nodemon": "^3.1.7",
+    "path": "^0.12.7",
+    "promises": "^0.2.5",
+    "swiper": "^11.1.0"
+  },
+  "moduleAliases": {
+    "@": "src"
+  }
+}
